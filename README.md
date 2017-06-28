@@ -16,7 +16,7 @@
 
 
 使用同[ESJsonFormatForMac](https://github.com/czhen09/ESJsonFormatForMac)一样,可以直接在Json下面的NSTextView中输入json字段,点击Go;或者输入请求的URl,点击Request;就可以起飞了;
-![image](https://github.com/czhen09/ConstKeyValueCreater/blob/master/Image/ZX.png)
+![image](https://github.com/czhen09/ConstKeyValueCreater/blob/master/Image/Soft.png)
 
 
 
