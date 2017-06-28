@@ -28,15 +28,15 @@
 {
     NSString *modelStr = [NSString stringWithFormat:@"//\n//Created by ConstKeyValueCreater on %@.\n//\n\n",[self getDateStr]];
     NSString *hImportStr = nil;
-//    NSString *mImportStr = nil;
+    NSString *mImportStr = nil;
     NSString *newHContent = nil;
     NSString *newMContent = nil;
      if (![[NSUserDefaults standardUserDefaults] boolForKey:@"isSwift"]) {
          
          hImportStr = @"#import <Foundation/Foundation.h>\n\n";
-//         mImportStr = [NSString stringWithFormat:@"#import \"%@\"\n",hFileName];
+         mImportStr = [NSString stringWithFormat:@"#import \"%@\"\n",hFileName];
          newHContent = [NSString stringWithFormat:@"%@%@%@",modelStr,hImportStr,hContent];
-         newMContent = [NSString stringWithFormat:@"%@%@",modelStr,mContent];
+         newMContent = [NSString stringWithFormat:@"%@%@%@",modelStr,mImportStr,mContent];
      }else{
          
          hImportStr = @"import UIKit\n\n";
