@@ -22,7 +22,8 @@
 
 ## 其他  
 0.[简书](http://www.jianshu.com/p/2a388b806c1d)  
-1.暂时只支持OC;    
-2.使用愉快,欢迎吐槽,感谢Star;
+1.暂时只支持OC;      
+2.软件dmg在Application目录下;
+3.使用愉快,欢迎吐槽,感谢Star;
 
 
